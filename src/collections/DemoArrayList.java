@@ -42,7 +42,6 @@ public class DemoArrayList {
         for (Student s:al2){
             System.out.println(s);
         }
-
        ListIterator<Student>li= al2.listIterator();
         while (li.hasNext()){
             System.out.println(li.next());
